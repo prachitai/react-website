@@ -1,4 +1,3 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
@@ -10,19 +9,17 @@ import Weather from "./pages/Weather";
 
 function App() {
   return (
-    <Router>
+    <div>
       <Navbar />
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/education" element={<Education />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/weather" element={<Weather />} />
-      </Routes>
+      <Home />
+      <Contact />
+      <Education />
+      <Skills />
+      <Weather />
 
       <Footer />
-    </Router>
+    </div>
   );
 }
 
