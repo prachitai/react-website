@@ -1,9 +1,5 @@
 {
   "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
-}cd react-website
-git add .
-git commit -m "final fix"
-git push
-
+}
