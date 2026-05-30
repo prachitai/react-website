@@ -1,3 +1,4 @@
+import "./App.css";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
@@ -27,4 +28,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; 

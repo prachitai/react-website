@@ -11,7 +11,8 @@ function Skills() {
   }, []);
 
   return (
-    <div>
+    <div className="page-container">
+      <div className="content-card">
       <h1>Skills</h1>
       <p>HTML, CSS, JavaScript, React</p>
 
@@ -22,7 +23,9 @@ function Skills() {
         <p>Loading...</p>
       )}
     </div>
+    </div>
   );
 }
 
 export default Skills;
+

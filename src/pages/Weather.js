@@ -17,7 +17,8 @@ function Weather() {
   };
 
   return (
-    <div>
+    <div className="page-container">
+      <div className="content-card">
       <h1>Weather</h1>
 
       <input
@@ -33,6 +34,7 @@ function Weather() {
       ) : (
         <p>No data</p>
       )}
+    </div>
     </div>
   );
 }
